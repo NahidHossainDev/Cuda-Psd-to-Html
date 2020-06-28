@@ -1,1 +1,376 @@
 # Cuda-Psd-to-Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="I=edge">
+    <title>Cuda/ An awesome portfolio</title>
+
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+    <!-- Fontawesome-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Vendors File-->
+    <link rel="stylesheet" href="/Main Html/Vendors/Css/normalize.css">
+    <link rel="stylesheet" href="/Main Html/Vendors/Css/grid.css">
+    <link rel="stylesheet" href="/Main Html/Vendors/Css/animated-circel.css">
+    <!--Recources files-->
+    <link rel="stylesheet" href="/Main Html/resource/css/style.css">
+    <link rel='stylesheet' href="/Main Html/resource/css/responsive.css">
+</head>
+<body>
+ <!----- HI this is nahid hossain nehal ---->
+<!---Start header section -->
+    <header id="header">
+        <nav id="head">
+            <div class="row">
+                <a href="#header">
+                    <img class="logo" src="/Main Html/resource/img/logo.png" alt="Cuda" >
+                </a>
+                <div class="main-nav">
+                    <ul>
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#service">SERVICE</a></li> 
+                        <li><a href="#team">OUR TEAM</a></li>
+                        <li><a href="#skill">SKILL</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#testimonial">ABOUT US</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="mobile-menu">
+                    <span onclick="openNav()">&#9776;</span>
+                   
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+                        <div class="overlay-content">
+                            <a onclick="closeNav()" href="#header">HOME</a>
+                            <a onclick="closeNav()" href="#service">SERVICE</a>
+                            <a onclick="closeNav()" href="#team">OUR TEAM</a>
+                            <a onclick="closeNav()" href="#skill">SKILL</a></li>
+                            <a onclick="closeNav()" href="#portfolio">PORTFOLIO</a>
+                            <a onclick="closeNav()" href="#testimonial">ABOUT US</a>
+                            <a onclick="closeNav()" href="#contact">CONTACT</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="hero-text-box">
+                 <h1>Hi there! We are the new kids on the block 
+                  and we build awesome websites and mobile apps.</h1>
+                  <a href="#contact" class="btn btn-hero">work with us!</a>          
+             </div>
+        </div>
+    </header>
+<!----End header section-->
+
+<!----Start Services section-->
+    <section class="sercvices-section js--service-section" id="service">
+        <div class="row">
+            <h2>SERVICE WE PROVIDE</h2>
+            <p class="little-discription">We are working with both individuals and businesses from all over the globe 
+                to create awesome websites and applications.
+                </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="/Main Html/resource/img/flag.png" alt="flag" class="serivces-icon">
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet, 
+                    consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="/Main Html/resource/img/pencil_.png" alt="flag" class="serivces-icon">
+                <h3>Design</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem  </p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="/Main Html/resource/img/setting_.png" alt="flag" class="serivces-icon">
+                <h3>Development</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="/Main Html/resource/img/rockte.png" alt="flag" class="serivces-icon">
+                <h3>Rocket Science</h3>
+                <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+            </div>
+        </div>
+    </section>   
+<!----End Sercices section-->
+
+<!----Start Team section-->
+<section  class="team-section clear-fix" id="team">
+    <div class="row">
+        <h2>MEET OUR BEAUTIFUL TEAM</h2>
+        <p class="little-discription">We are a small team of designers and developers, who help brands with big ideas.
+        </p>
+    </div>
+    <div class="row">
+       <div class="col span_1_of_4 box">
+           <img src="/Main Html/resource/img/205765_v9_bb.jpg" alt="team member" class='team-member'>
+           <h3>ANNE HATHA</h3>
+           <span class="role">CEO / Marketing Guru</span>
+           <p>Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+           <div class="social-icon">
+               <ul>
+                   <li><a href=""><i><i class="fab fa-facebook-f"></i></i></a></li>
+                   <li><a href=""><i><i class="fab fa-twitter"></i></i></a></li>
+                   <li><a href=""><i><i class="fas fa-envelope"></i></i></a></li>
+                   <li><a href=""><i><i class="fab fa-linkedin-in"></i></i></a></li>
+               </ul>
+           </div>
+        </div>
+       <div class="col span_1_of_4 box">
+        <img src="/Main Html/resource/img/man (1).jpg" alt="team member" class='team-member'>
+        <h3>Kate Upton</h3>
+        <span class="role">Creative Director</span>
+        <p>Lorem ipsum dolor sit amet, 
+         consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+         <div class="social-icon">
+            <ul>
+                <li><a href=""><i><i class="fab fa-facebook-f"></i></i></a></li>
+                <li><a href=""><i><i class="fab fa-twitter"></i></i></a></li>
+                <li><a href=""><i><i class="fas fa-envelope"></i></i></a></li>
+                <li><a href=""><i><i class="fab fa-linkedin-in"></i></i></a></li>
+            </ul>
+        </div>
+        </div>
+    <div class="col span_1_of_4 box">
+        <img src="/Main Html/resource/img/man (2).jpg" alt="team member" class='team-member'>
+        <h3>Olivia Wilde</h3>
+        <span class="role">CEO / Marketing Guru</span>
+        <p>Lorem ipsum dolor sit amet, 
+         consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+         <div class="social-icon">
+            <ul>
+                <li><a href=""><i><i class="fab fa-facebook-f"></i></i></a></li>
+                <li><a href=""><i><i class="fab fa-twitter"></i></i></a></li>
+                <li><a href=""><i><i class="fas fa-envelope"></i></i></a></li>
+                <li><a href=""><i><i class="fab fa-linkedin-in"></i></i></a></li>
+            </ul>
+        </div>
+        </div>
+    <div class="col span_1_of_4 box">
+        <img src="/Main Html/resource/img/man (3).jpg" alt="team member" class='team-member'>
+        <h3>Ashley Greene</h3>
+        <span class="role">SEO / Developer</span>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <div class="social-icon">
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+</section>
+<!----End Team section-->
+
+<!----Start Skill section-->
+    <section class="skill-section" id="skill">
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="little-discription">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <div class="circle_percent web-design" data-percent="90">
+                    <div class="circle_inner">
+                        <div class="round_per"></div>
+                    </div>
+                </div>
+                <h3>web Design</h3>
+            </div>       
+            <div class="col span_1_of_4 box">
+                <div class="circle_percent html-css" data-percent="75">
+                    <div class="circle_inner">
+                        <div class="round_per"></div>
+                    </div>
+                </div>
+                <h3>html / css</h3>
+            </div>    
+            <div class="col span_1_of_4 box">
+                <div class="circle_percent graphic-design" data-percent="70">
+                    <div class="circle_inner">
+                        <div class="round_per"></div>
+                    </div>
+                </div>
+                <h3>Graphic Design</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <div class="circle_percent ui-ux" data-percent="85">
+                    <div class="circle_inner">
+                        <div class="round_per"></div>
+                    </div>
+                </div>
+                <h3>ui / ux</h3>
+            </div>
+        </div>
+    </section>
+<!----End Skill section-->
+
+<!----Start Portfolio section-->
+    <section id="portfolio" class="portfolio-section">
+        <div class="row">
+            <h2>our portfolio</h2>
+            <p class="little-discription">
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                consectetur, adipisci velit, sed quia non numquam
+            </p>
+        </div>
+        <div class="row">
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">all</button>
+                <button type="button" data-filter=".web">web</button>
+                <button type="button" data-filter=".apps">apps</button>
+                <button type="button" data-filter=".icons">icons</button>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col span_1_of_2 mix apps box">
+                <img src="/Main Html/resource/img/Portfolio 1.png" alt="portfolio-1" class="protfolio-ing">
+            </div>
+            <div class="col span_1_of_2 mix apps web box">
+                <img src="/Main Html/resource/img/Portfolio 2.png" alt="portfolio-1" class="protfolio-ing">
+            </div>
+        </div>
+        <div class="row container">    
+            <div class="col span_1_of_2 mix icons box">
+                <img src="/Main Html/resource/img/Portfolio 3.png" alt="portfolio-1" class="protfolio-ing">
+            </div>   
+            <div class="col span_1_of_2 mix apps web icons box">
+                <img src="/Main Html/resource/img/Portfolio 4.png" alt="portfolio-1" class="protfolio-ing">
+            </div>
+        </div>
+        <div class="row">
+            <a href="#" class="btn btn-hero load-more">load more projects</a>
+        </div>
+    </section>
+<!----End Portfolio section-->
+
+<!----End Testimonial section-->
+    <section class="testimonial"id="testimonial">
+        <div class="row">
+            <h2>what poeple say about us</h2>
+            <p class="little-discription">Our client love us!</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_2 box">
+                <div class="clint-photo">
+                    <img src="/Main Html/resource/img/man (1).jpg" alt="">
+                </div>
+                <div class="clint-review">
+                   <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+                        Maecenas fringilla urna eu nisl scelerisque.”</p>
+                    <h3>Chanel Iman</h3>
+                    <span class="role">CEO of Pinterest </span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="clint-photo">
+                    <img src="/Main Html/resource/img/man (2).jpg" alt="">
+                </div>
+                <div class="clint-review">
+                   <p>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+                        In condimentum facilisis porta.”
+                   </p>
+                    <h3>ADRIANA LIMA</h3>
+                    <span class="role">CEO of Pinterest </span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="clint-photo">
+                    <img src="/Main Html/resource/img/man (3).jpg" alt="">
+                </div>
+                <div class="clint-review">
+                   <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+                        Maecenas fringilla urna eu nisl scelerisque.”</p>
+                    <h3>ANNE HATHAWAY
+                    </h3>
+                    <span class="role">CEO of Pinterest </span>
+                </div>
+            </div>
+            <div class="col span_1_of_2 box">
+                <div class="clint-photo">
+                    <img src="" alt="">
+                </div>
+                <div class="clint-review">
+                   <p>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget.
+                        Maecenas fringilla urna eu nisl scelerisque.”</p>
+                    <h3>EMMA STONE
+                    </h3>
+                    <span class="role">CEO of Pinterest </span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!----End Testimonial section-->
+
+<!----Start Contact section-->
+    <section class="contact-section" id="contact">
+        <div class="row">
+            <h2>get in touch</h2>
+            <p class="little-discription">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. 
+                Tel: (202) 456-1111
+            </p>
+        </div>
+       <div class="row">
+           <form action="#" method="POST" >
+               <div class="row form">
+                   <div class="col span_1_of_2">
+                       <input type="text" name="Name:" placeholder="your name *" required>
+                   </div>
+                   <div class="col span_1_of_2">
+                       <input type="email" placeholder="your email *" required>
+                   </div>
+               </div>
+               <div class="row">
+                   <textarea name="message" id="" cols="30" rows="10" placeholder="your message *" required></textarea>
+               </div>
+               <div class="row">
+                   <input type="submit" value="SEND MESSEGE" class="btn btn-submit">
+               </div>
+           </form>
+       </div>
+    </section>
+
+<!----End Contact section-->
+
+<!----Start Footer section-->
+    <footer>
+       <div class="row">
+           <ul>
+               <li><a href="#">facebook</a></li>
+               <li><a href="#">twiter</a></li>
+               <li><a href="#">linkedin</a></li>
+               <li><a href="#">skype</a></li>
+               <li><a href="#">google+</a></li>
+               <li><a href="#">behance</a></li>
+               <li><a href="#">github</a></li>
+           </ul>
+       </div>
+    </footer>
+<!----End Footer section-->
+
+
+
+
+    <!---- Js Scripts Vendors files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/Main Html/Vendors/Js/html5shiv.min.js"></script>
+    <script src="/Main Html/Vendors/Js/respond.min.js"></script>
+    <script src="/Main Html/Vendors/Js/selectivizr.js"></script>
+    <script src="/Main Html/Vendors/Js/jquery.waypoints.min.js"></script>
+    <script src="/Main Html/Vendors/Js/animated-circle.js"></script>
+    <script src="/Main Html/Vendors/Js/mixitup.min.js"></script>
+    <script src="/Main Html/resource/js/main.js"></script>
+</body>
+</html>
