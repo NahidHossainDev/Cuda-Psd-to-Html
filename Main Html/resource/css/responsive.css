@@ -1,0 +1,49 @@
+@media only screen and (max-width:1200px){
+    .hero-text-box{
+        width: 80%;
+    }
+    header{
+        height: 70vh;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+  .row {
+        margin:0 1rem;
+   }
+   .main-nav{
+       display: none;
+   }
+   html{
+       font-size: 57.5%;
+   }
+   header{
+       height: 50vh;
+   }
+   .mobile-menu{
+       display:block;
+   }
+}
+
+@media only screen and ( max-width:900px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .html{
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .span_1_of_4{
+        width: 100%;
+    }
+   header{
+    height: 64vh;
+   }
+}
+
